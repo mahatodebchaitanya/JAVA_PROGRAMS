@@ -3,12 +3,12 @@ public class Bubble_sort {
 
     public static void main(String[] args) {
         int arr[] = {1, 2,18,6,7,8};
-        // bubble_sort(arr);
-        // printArr(arr);
-        // best_case_bubble_sort(arr);
-        // printArr(arr);
-        // selection_sort(arr);
-        // printArr(arr);
+        bubble_sort(arr);
+        printArr(arr);
+        best_case_bubble_sort(arr);
+        printArr(arr);
+        selection_sort(arr);
+        printArr(arr);
         insertion_sort(arr);
         printArr(arr);
     }
